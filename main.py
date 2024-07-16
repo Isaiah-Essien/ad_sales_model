@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException, status
+import numpy as np
 import joblib
 from pydantic import BaseModel
 import uvicorn
